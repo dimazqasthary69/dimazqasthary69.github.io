@@ -15,6 +15,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
@@ -70,6 +71,7 @@ th {
 ul {
     list-style: disc;
     padding-left: 20px;
+    display: inline-block;
 }
 
 footer {
