@@ -91,29 +91,8 @@ body, html {
     overflow: auto;
 }
 
-/* Video Background */
-#backgroundVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures video covers the entire area */
-    z-index: -1; /* Ensures video stays behind content */
-}
 
-/* Content Styling */
-.content {
-    position: relative;
-    z-index: 1; /* Ensures content appears above the video */
-    color: white; /* Text color for visibility */
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
  
-    
-
 
 .portfolio-grid {
     display: flex;
