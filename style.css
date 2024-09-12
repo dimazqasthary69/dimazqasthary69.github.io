@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.table, .list {
+    margin: 20px 0;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #000000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Video Background */
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the entire area */
+    z-index: -1; /* Ensures video stays behind content */
+}
+
+/* Content Styling */
+.content {
+    position: relative;
+    z-index: 1; /* Ensures content appears above the video */
+    color: white; /* Text color for visibility */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+ 
+    
+
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    
+    
+    
+    margin-bottom: 10px;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+.portfolio-item img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8
+}
+
